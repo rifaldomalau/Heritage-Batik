@@ -1,4 +1,5 @@
-tensorflow==2.13.0
+tensorflow
+keras
 streamlit
 pillow
-numpy==1.24.3
+numpy
