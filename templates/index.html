@@ -1,0 +1,433 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+    
+    <!--Designerd by: http://bootstrapthemes.co-->
+    <head>
+        <meta charset="utf-8">
+        <title>AI-based Cultural Heritage Identification System</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/png" href="../static/favicon.ico">
+
+        <!--Google Font link-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='slick.css') }}"/>
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='slick-theme.css') }}"/>
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='animate.css') }}"/>
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='fonticons.css') }}"/>
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='font-awesome.min.css') }}"/>
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='bootstrap.css') }}"/>
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='magnific-popup.css') }}"/>
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='bootsnav.css') }}"/>
+
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='style.css') }}"/>
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='responsive.css') }}"/>
+        <script src="{{ url_for('static',filename='modernizr-2.8.3-respond-1.4.2.min.js') }}"></script>
+        <!-- <link rel="stylesheet" href="../static/slick.css           ">
+        <link rel="stylesheet" href="../static/slick-theme.css     ">
+        <link rel="stylesheet" href="../static/animate.css         ">
+        <link rel="stylesheet" href="../static/fonticons.css       ">
+        <link rel="stylesheet" href="../static/font-awesome.min.css">
+        <link rel="stylesheet" href="../static/bootstrap.css       ">
+        <link rel="stylesheet" href="../static/magnific-popup.css  ">
+        <link rel="stylesheet" href="../static/bootsnav.css        "> -->
+
+
+        <!--For Plugins external css-->
+        <!--<link rel="stylesheet" href="assets/css/plugins.css" />-->
+
+        <!--Theme custom css -->
+        <link rel="stylesheet" href="../static/style.css">
+
+        <!--Theme Responsive css-->
+        <link rel="stylesheet" href="../static/responsive.css" />
+
+        <script src="../static/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+
+    <body data-spy="scroll" data-target=".navbar-collapse">
+
+
+        <!-- Preloader -->
+        <div id="loading">
+            <div id="loading-center">
+                <div id="loading-center-absolute">
+                    <div class="object" id="object_one"></div>
+                    <div class="object" id="object_two"></div>
+                    <div class="object" id="object_three"></div>
+                    <div class="object" id="object_four"></div>
+                </div>
+            </div>
+        </div><!--End off Preloader -->
+
+
+        <div class="culmn">
+            <!--Home page style-->
+
+
+            <nav class="navbar navbar-default navbar-fixed white no-background bootsnav">
+                <!-- Start Top Search -->
+                <div class="top-search">
+                    <div class="container">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                            <input type="text" class="form-control" placeholder="Search">
+                            <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Top Search -->
+
+                <div class="container">    
+
+                    <!-- Start Header Navigation -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <a class="navbar-brand" href="#brand">
+
+                            <!-- <img src="../static/log-cult-long-scrolled-sd.png" class="logo logo-display m-top-10" alt="">
+                            <img src="../static/log-cult-long-sd.png" class="logo logo-scrolled m-top-10" alt="">  -->
+                            <!-- <h4 class="logo logo-scrolled m-top-10">AI-BASED<strong> CULTURAL HERITAGE IDENTIFICATION SYSTEM</strong></h4> -->
+                            <!-- <h4 class="logo logo-display m-top-10 text-white">AI-BASED<strong> CULTURAL HERITAGE IDENTIFICATION SYSTEM</strong></h4> -->
+                        </a>
+                    </div>
+                    <!-- End Header Navigation -->
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="navbar-menu">
+                        <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+                            <li><a href="#hello">Find</a></li>                    
+                            <li><a href="#about">About</a></li>                    
+                            <!-- <li><a href="#service">Services</a></li>                     -->
+                            <li><a href="#portfolio">Media</a></li>
+                            <!-- <li><a href="#pricing">Pricing</a></li>                     -->
+                            <!-- <li><a href="#blog">Blog</a></li>                     -->
+                            <!-- <li><a href="#contact">Contact</a></li>   -->
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div>  
+            </nav>
+
+
+            <!--Home Sections-->
+
+            <section id="hello" class="home bg-mega">
+                <div class="overlay"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="main_home">
+                            <hr style="clear: both; visibility: hidden;">
+                            <div class="home_text">
+                                <h2 class="text-white text-center" style="font-size: 50px;">AI-BASED</h2>
+                                <h2 class="text-white text-center" style="font-size: 44px;"><strong> CULTURAL HERITAGE IDENTIFICATION SYSTEM</strong></h2>
+                            </div>
+                            <hr class="m-bottom-40" style="clear: both; visibility: hidden;">
+                            
+                            
+                            <!-- Drag and drop picture -->
+                            <form method="post" action="/input" enctype="multipart/form-data">
+                                <div class="form-group files">
+                                    <input type="file" class="form-control" name="imageFile">
+                                </div>
+                                <div class="home_btns m-top-40 text-center">
+                                    <input class="btn btn-primary m-top-20" type="submit" value="UPLOAD">
+                                    <button type="button" class="btn btn-primary m-top-20" data-toggle="modal" data-target="#modal-output" data-backdrop="false">
+                                        SHOW CULTURE
+                                    </button>
+                                </div>
+                            </form>
+                            <!-- End of Drag and drop picture -->
+
+                            <div class="home_btns m-top-40 text-center">
+                                
+                                <!-- <a type="button" class="btn btn-primary m-top-20" data-toggle="modal" data-target="#exampleModalCenter">UPLOAD & FIND CULTURE</a> -->
+                                
+                                <!-- <form class="p-3 text-center " action="/input" method="post" enctype="multipart/form-data">
+                                    <input type="file" class="form-control second" name="imageFile">
+                                    <input class="btn btn-primary mt-3 btn-lg add formm font-s" type="submit" value="Predict Posture">
+                                </form> -->
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="modal-output" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-margin-top" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header m-bottom-0 p-bottom-4">
+                                                <h5 class="modal-title" id="exampleModalLongTitle">Prediction Result</h5>
+                                            </div>
+                                                <div class="modal-body">
+                                                    <img src="./../static/image.jpg" alt="thumb" class="img-thumbnail">
+                                                    <div class="row">
+                                                        <h1>{{ cultureOutput }}</h1>
+                                                        <div class="separator_auto"></div>
+                                                        <p  style="margin-left: 25px; margin-right:25px;">
+                                                            <b>Origin: </b> {{ cultureOrigin }}
+                                                        </p>
+                                                        <p  style="margin-left: 25px; margin-right:25px;">
+                                                            <b>Description: </b> {{ cultureDesc }}
+                                                        </p>
+                                                    </div>
+                                                    <div class="row">
+                                                        <hr>
+                                                        <h4>What is {{ nameOutput }}?</h4>
+                                                        <div class="separator"></div>
+                                                        <p>{{ generalDescription }}</p>
+                                                    </div>
+                                                </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--End off row-->
+                </div><!--End off container -->
+            </section> <!--End off Home Sections-->
+
+            
+
+            <!--About Sections-->
+            <section id="about" class="about roomy-100">
+                <div class="container">
+                    <div class="row">
+                        <div class="main_about">
+                            <div class="col-md-12">
+                                <div class="about_content">
+                                    <h2>ABOUT US</h2>
+                                    <div class="separator_left"></div>
+
+                                    <p>We dedicate this Artificial Intelligence project to help people to recognize objects of 
+                                        Indonesian culture in the form of physical and non-physical objects so that we hope that all of
+                                        this culture will be maintained and not fade in this increasingly advanced society. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div><!--End off container -->
+            </section> <!--End off About section -->
+
+            <!--Portfolio Section-->
+            <section id="portfolio" class="portfolio lightbg">
+                <div class="container">
+                    <div class="row">
+                        <div class="main_portfolio roomy-100">
+                            <div class="col-md-8 col-md-offset-2">
+                                <div class="head_title text-center">
+                                    <h2>INDONESIAN CULTURE HERITAGE</h2>
+                                    <div class="separator_auto"></div>
+                                </div>
+                            </div>
+
+                            <div class="portfolio_content">
+                                <div class="col-md-8">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="portfolio_item">
+                                                <img src="./../static/cult2-campur.png" alt="Kebudayaan Indonesia" />
+                                                <div class="portfolio_hover text-center">
+                                                    <h6 class="text-uppercase text-white"></h6>
+                                                    <p class=" text-white">Kebudayaan Indonesia</p>
+                                                    <div class="portfolio_hover_icon">
+                                                        <a href="assets/images/Portfolio/2.jpg" class="popup-img"><i class="fa fa-expand"></i></a>
+                                                        <a href=""><i class="fa fa-search"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>  
+                                        </div>
+                                        <div class="col-md-6 m-top-30">
+                                            <div class="portfolio_item portfolio_item2">
+                                                <img src="./../static/cult5-rendang.jpg" alt="Rendang" />
+                                                <div class="portfolio_hover text-center">
+                                                    <h6 class="text-uppercase text-white"></h6>
+                                                    <p class=" text-white">Rendang</p>
+                                                    <div class="portfolio_hover_icon">
+                                                        <a href="./../static/cult5-rendang.jpg" class="popup-img"><i class="fa fa-expand"></i></a>
+                                                        <a href=""><i class="fa fa-search"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 m-top-30">
+                                            <div class="portfolio_item portfolio_item2">
+                                                <img src="./../static/cult6-putu.jpg" alt="Kue Putu" />
+                                                <div class="portfolio_hover text-center">
+                                                    <h6 class="text-uppercase text-white"></h6>
+                                                    <p class=" text-white">Kue Putu</p>
+                                                    <div class="portfolio_hover_icon">
+                                                        <a href="./../static/cult6-putu.jpg" class="popup-img"><i class="fa fa-expand"></i></a>
+                                                        <a href=""><i class="fa fa-search"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 m-top-30">
+                                            <div class="portfolio_item">
+                                                <img src="./../static/cult7-reog.jpg" alt="Reog Ponorogo" />
+                                                <div class="portfolio_hover text-center">
+                                                    <h6 class="text-uppercase text-white"></h6>
+                                                    <p class=" text-white">Reog Ponorogo</p>
+                                                    <div class="portfolio_hover_icon">
+                                                        <a href="./../static/cult7-reog.jpg" class="popup-img"><i class="fa fa-expand"></i></a>
+                                                        <a href=""><i class="fa fa-search"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="portfolio_item portfolio_item3 sm-m-top-30">
+                                        <img src="./../static/cult3-batik tulis.jpg" alt="Batik Tulis" />
+                                        <div class="portfolio_hover text-center">
+                                            <h6 class="text-uppercase text-white"></h6>
+                                            <p class=" text-white">Batik Tulis</p>
+                                            <div class="portfolio_hover_icon">
+                                                <a href="./../static/cult3-batik tulis.jpg" class="popup-img"><i class="fa fa-expand"></i></a>
+                                                <a href=""><i class="fa fa-search"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 m-top-30">
+                                    <div class="portfolio_item portfolio_item2">
+                                        <img src="./../static/cult4-wayang kulit.jpg" alt="Wayang Kulit" />
+                                        <div class="portfolio_hover text-center">
+                                            <h6 class="text-uppercase text-white"></h6>
+                                            <p class=" text-white">Wayang Kulit</p>
+                                            <div class="portfolio_hover_icon">
+                                                <a href="./../static/cult4-wayang kulit.jpg" class="popup-img"><i class="fa fa-expand"></i></a>
+                                                <a href=""><i class="fa fa-search"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 m-top-60">
+                                    <div class="portfolio_item portfolio_item2">
+                                        <img src="./../static/cult8-pura ulun.jpg" alt="Pura Ulun Danu Beratan" />
+                                        <div class="portfolio_hover text-center">
+                                            <h6 class="text-uppercase text-white"></h6>
+                                            <p class=" text-white">Pura Ulun Danu Beratan</p>
+                                            <div class="portfolio_hover_icon">
+                                                <a href="./../static/cult8-pura ulun.jpg" class="popup-img"><i class="fa fa-expand"></i></a>
+                                                <a href=""><i class="fa fa-search"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+
+                        </div>
+                    </div><!--End off row -->
+                </div><!--End off container -->
+            </section><!-- End off Portfolio section-->
+
+            <!--client brand section-->
+            <section id="cbrand" class="cbrand">
+                <div class="container">
+                    <div class="row">
+                        <div class="main_cbrand text-center roomy-100">
+                            <div class="col-md-2 col-sm-4 col-xs-8">
+                                <div class="cbrand_item m-bottom-10">
+                                    <a href=""><img src="" alt=""/></a>
+                                </div>
+                            </div>
+                            <div class="col-md-1 col-sm-2 col-xs-4">
+                                <div class="cbrand_item m-bottom-10">
+                                    <a href=""><img src="" alt="" /></a>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-8">
+                                <div class="cbrand_item m-bottom-10">
+                                    <a href=""><img src="./../static/logo-sag/Intel AI Global Impact Festival 2022 logo.bmp" alt="Intel Global Impact Logo" /></a>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12">
+                                <div class="cbrand_item m-bottom-10">
+                                    <a href=""><img src="./../static/logo-sag/sagasitas black.png" alt="Sagasitas Indonesia Logo" /></a>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-8">
+                                <div class="cbrand_item m-bottom-10">
+                                    <a href=""><img src="./../static/logo-sag/logo yayasan.png" alt="Yayasan Sagasitas Indonesia Logo" /></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End off row -->
+                </div><!-- End off container -->
+            </section><!-- End off Cbrand section -->
+
+            <!-- scroll up-->
+            <div class="scrollup">
+                <a href="#"><i class="fa fa-chevron-up"></i></a>
+            </div><!-- End off scroll up -->
+
+
+            <footer id="footer" class="footer bg-black">
+                <div class="container">
+                    <div class="row">
+                        <div class="main_footer text-center p-top-40 p-bottom-30">
+                            <p class="wow fadeInRight" data-wow-duration="1s">
+                                Made by <b>Yayasan Sagasitas Indonesia </b>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        
+
+            <!-- JS includes -->
+
+            <script src="../static/jquery-1.11.2.min.js"></script>
+            <script src="../static/bootstrap.min.js"></script>
+
+            <script src="../static/jquery.magnific-popup.js"></script>
+            <script src="../static/jquery.easing.1.3.js"></script>
+            <script src="../static/slick.min.js"></script>
+            <script src="../static/jquery.collapse.js"></script>
+            <script src="../static/bootsnav.js"></script>
+
+
+            <!-- paradise slider js -->
+
+
+            <script src="http://maps.google.com/maps/api/js?key=AIzaSyD_tAQD36pKp9v4at5AnpGbvBUsLCOSJx8"></script>
+            <script src="../static/gmaps.min.js"></script>
+
+            <script>
+                            function showmap() {
+                                var mapOptions = {
+                                    zoom: 8,
+                                    scrollwheel: false,
+                                    center: new google.maps.LatLng(-34.397, 150.644),
+                                    mapTypeId: google.maps.MapTypeId.ROADMAP
+                                };
+                                var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
+                                $('.mapheight').css('height', '350');
+                                $('.maps_text h3').hide();
+                            }
+
+            </script>
+
+
+
+
+
+            <script src="../static/js/plugins.js"></script>
+            <script src="../static/main.js"></script>
+
+    </body>
+</html>
